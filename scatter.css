@@ -1,0 +1,57 @@
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#title {
+    text-align: center;
+}
+
+#chart {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.dot {
+    stroke: #333;
+    stroke-width: 1;
+}
+
+.dot.doping {
+    fill: orangered;
+}
+
+.dot.no-doping{
+    fill: green;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: rgba(103, 159, 168 , 0.8);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#legend {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
